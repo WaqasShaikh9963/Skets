@@ -27,13 +27,13 @@ The Web Based Software Prototyping Application is a web application to develop o
 
 # Tools And Technologies
 
-Codeignitor
-Html5
-CSS
-Bootstrap
-Jquery
-Ajax
-PHP7
-Mysql
-Adobe Illustrator
+- Codeignitor
+- Html5
+- CSS
+- Bootstrap
+- Jquery
+- Ajax
+- PHP7
+- Mysql
+- Adobe Illustrator
 
