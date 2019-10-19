@@ -71,7 +71,7 @@ $(document).keyup(function(e){
        prototype_name = $('#prototypename').val();
         jQuery.ajax({
         type:"POST",
-        url:"/Skets/index.php/SketsController/Insert_Prototype",
+        url:"/Skets/index.php/create/Insert_Prototype",
         data:{data:el,prototype_name:prototype_name},    // multiple data sent using ajax
         
             success: function (data) {
@@ -82,7 +82,7 @@ $(document).keyup(function(e){
                                                       
 $(".project_name").on('click',function(){   ////  Get Protoype Name when user login
        projectid = $(this).attr("id");
-        var u = "/Skets/index.php/SketsController/Get_Prototypes";
+        var u = "/Skets/index.php/create/Get_Prototypes";
     //    console.log("id: " +projectid +" u: " +u);
         jQuery.ajax({
         type:"GET",
@@ -120,11 +120,11 @@ $("#s_as").click(function(){   ////  Update & Save As Prototype
      update_prototype = update_el.html();
      //update_name = $('#update_name').attr('value');
       // alert(update_prototype);
-      // var u = "/Skets/index.php/SketsController/Update_Prototypes";
+      // var u = "/Skets/index.php/create/Update_Prototypes";
         console.log("name el : " + update_el +" project_id " + projectid);
         jQuery.ajax({
         type:"POST",
-        url:"/Skets/index.php/SketsController/Update_Prototypes",
+        url:"/Skets/index.php/create/Update_Prototypes",
         data:{update_pro:update_prototype,update_id:projectid},    
             success: function (data) {
              alert('update succesfully');
@@ -140,7 +140,7 @@ $("#s_as").click(function(){   ////  Update & Save As Prototype
     //      if(check == true){
       jQuery.ajax({
         type:"POST",
-        url:"/Skets/index.php/SketsController/Delete_Prototypes",
+        url:"/Skets/index.php/create/Delete_Prototypes",
         data:{delete_key:delete_id},    // multiple data sent using ajax
             success: function (data) {
              alert('Delete Successfuly');
