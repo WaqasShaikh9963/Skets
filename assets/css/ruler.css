@@ -1,0 +1,101 @@
+{
+    margin:0px;
+    padding:0px;
+
+}
+
+
+
+.ruler{
+    border-right:1px solid #d1d1d1;
+    border-bottom:1px solid#d1d1d1;
+    background:#fff;
+    position:absolute;
+    left:0;top:0;
+    z-index:10;
+    overflow:hidden
+}
+.ruler path{
+    stroke:#d1d1d1!important
+}
+.ruler-numbers{
+    position:absolute;
+    color:#9f9f9f;
+    font-size:.7em;
+    white-space:nowrap
+}
+.ruler-numbers span{
+    box-sizing:border-box;
+    padding:0 3px;
+    position:absolute
+}
+.horizontal-ruler .ruler-numbers span{
+    display:inline-block
+}
+.vertical-ruler .ruler-numbers span{
+    display:block;
+    -webkit-transform:rotate(-90deg);
+    transform:rotate(-90deg);
+    -webkit-transform-origin:top left;
+    transform-origin:top left
+}
+
+
+.bckground{
+    height: 100%;
+    width: 100%;
+background-color:#EEEEEE;
+    }
+
+/* Ruler 2 css start
+
+
+.ruler, .ruler li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+}
+/* IE6-7 Fix 
+.ruler, .ruler li {
+    *display: inline;
+}
+.ruler {
+    background: lightYellow;
+    box-shadow: 0 -1px 1em hsl(60, 60%, 84%) inset;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    color: #ccc;
+    margin: 0;
+    height: 3em;
+    padding-right: 1cm;
+    white-space: nowrap;
+}
+.ruler li {
+    padding-left: 1cm;
+    width: 2em;
+    margin: .64em -1em -.64em;
+    text-align: center;
+    position: relative;
+    text-shadow: 1px 1px hsl(60, 60%, 84%);
+}
+.ruler li:before {
+    content: '';
+    position: absolute;
+    border-left: 1px solid #ccc;
+    height: .64em;
+    top: -.64em;
+    right: 1em;
+}
+
+/* Make me pretty! 
+body {
+    font: 12px Ubuntu, Arial, sans-serif;
+    margin: 20px;
+}
+
+div {
+    margin-top: 2em;
+}
+
+ Ruler 2 css END*/

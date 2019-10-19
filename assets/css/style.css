@@ -1,0 +1,220 @@
+/* side_toolsbar Css start */
+.side_toolsbar{
+
+
+}
+/* side_toolsbar Css end */
+
+/* working area Css start */
+
+
+.working_area{
+
+height: 790px;
+margin-top: -800px;
+margin-left:360px;
+background-color:#EEEEEE;
+
+}
+
+/* working area Css End */
+
+
+.whitepage{
+
+height:563px; 
+width:750px; 
+margin:auto; 
+margin-top:50px; 
+background-color: white;
+    
+}
+@media print
+{
+body * { visibility: hidden; }
+.whitepage * { visibility: visible; }
+.whitepage { position: absolute; top: -200px; left: -485px; }
+}
+
+/* login modal Css start */
+
+.btn-launch,.btn-launch:hover, .btn-launch:active, .btn-launch:focus{
+    background-color:#6495ed;
+    color: #fff;
+    font-size: 15px;
+    margin-bottom: 5px;
+   
+}
+.bt-login,.bt-login:hover, .bt-login:active, .bt-login:focus {
+    background-color: cornflowerblue;
+    color: #fff;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    transition: background-color 300ms linear 0s;
+
+}
+
+.login-tab {
+	margin: 0 auto;
+	max-width: 380px;
+    
+}
+
+.login-modal-header {
+	background: cornflowerblue;
+	color: #fff;
+    
+}
+
+.login-modal-header .modal-title {
+	color: #fff;
+}
+
+.login-modal-header .close {
+	color: #fff;
+}
+
+.login-modal i {
+	color: #000;
+}
+
+.login-modal form {
+	max-width: 340px;
+}
+
+.tab-pane form {
+	margin: 0 auto;
+}
+.login-modal-footer{
+	margin-top:15px;
+	margin-bottom:15px;
+}
+
+
+/* login modal Css end */
+
+/* Ruler Bar Css Start */
+
+.ruler{
+    border-right:1px solid #d1d1d1;
+    border-bottom:1px solid#d1d1d1;
+    background:#fff;
+    position:absolute;
+    left:0;top:5;
+    z-index:1;
+    overflow:hidden
+}
+.ruler path{
+    stroke:#d1d1d1!important
+}
+.ruler-numbers{
+    position:absolute;
+    color:#9f9f9f;
+    font-size:.7em;
+    white-space:nowrap
+}
+.ruler-numbers span{
+    box-sizing:border-box;
+    padding:0 3px;
+    position:absolute
+}
+.horizontal-ruler .ruler-numbers span{
+    display:inline-block
+}
+.vertical-ruler .ruler-numbers span{
+    display:block;
+    -webkit-transform:rotate(-90deg);
+    transform:rotate(-90deg);
+    -webkit-transform-origin:top left;
+    transform-origin:top left
+}
+
+
+.bckground{
+    height: 100%;
+    width: 100%;
+background-color:#EEEEEE;
+    }
+.dragMe{
+    overflow:visible!important;
+    margin: 0px 0px 0px 0px;
+}
+.profileicon{
+
+height: 20px;
+width: 25px;
+margin-top: -7px;
+margin-right: 6px;
+}
+#saveicon{
+    height: 19px;
+    margin-top:-7px;
+}
+
+
+
+.ui-selecting { background:#000\9; }
+.ui-selected {
+    outline-style:auto;
+    outline-color:#007fff;
+}
+/*
+.ui-resizable-handle {
+    visibility: hidden;
+}
+
+.ui-selected .ui-resizable-handle {
+    visibility: visible;
+}
+.ui-resizable-handle {
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    border: 2px solid blue;
+    z-index: 100000;
+}
+.ui-resizable-n {
+    top: -4px;
+    left: 50%;
+    margin-left: -3px;
+    cursor: ns-resize;
+}
+.ui-resizable-ne {
+    top: -4px;
+    right: -4px;
+    cursor: nesw-resize;
+}
+.ui-resizable-e {
+    top: 50%;
+    right: -4px;
+    margin-top: -3px;
+    cursor: ew-resize;
+}
+.ui-resizable-se {
+    bottom: -4px;
+    right: -4px;
+    cursor: nwse-resize;
+}
+.ui-resizable-s {
+    bottom: -4px;
+    left: 50%;
+    margin-left: -3px;
+    cursor: ns-resize;
+}
+.ui-resizable-sw {
+    bottom: -4px;
+    left: -4px;
+    cursor: nesw-resize;
+}
+.ui-resizable-w {
+    left: -4px;
+    top: 50%;
+    margin-top: -3px;
+    cursor: ew-resize;
+}
+.ui-resizable-nw {
+    top: -4px;
+    left: -4px;
+    cursor: nwse-resize;
+}  */
+/* Ruler Bar Css End */

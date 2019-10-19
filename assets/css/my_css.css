@@ -1,0 +1,227 @@
+tr td div p {
+    margin-top: 20px;
+ font-size:12px; 
+    margin-top:8px;
+}
+
+td div a{
+    color: black;
+}
+ul li a{
+    color: black;
+}
+td:hover {
+  background-color:#f2f2f2; 
+ 
+}
+
+.avatar{ height:40px;  width:57px; margin-top:20px; margin-left:34px;}
+
+.map{ height:40px;  width:86px; margin-top:20px; margin-left:19px;}
+
+.tool_Note{ height:40px;  width:50px; margin-top:5px; margin-left:30px;}
+
+.tool_6101{ height:40px;width:50px; margin-top:5px; margin-left:35px;}
+
+.tool_1{ height:30px; width:90px; margin-top:20px; margin-left:13px;}
+
+.LoginForm{ height:40px;width:50px; margin-top:5px; margin-left:35px;}
+
+.SignUpForm{ height:30px; width:50px; margin-top:5px; margin-left:35px;}
+
+.tool_canlendar{ height:30px; width:80px; margin-top:20px; margin-left:21px;}
+ 
+.tool_pb{ width:127px; margin-left:-4px; margin-top:20px;}
+ 
+.tool_MoB{height:40px; width:48px; margin-top:11px; margin-left:33px;}
+ 
+.tool_scrol{height:50px;width:10px; margin-top:5px; margin-left:50px;}
+ 
+.tool_32-10{height:10px;width:127px; margin-top:44px; margin-left:-4px;}
+ 
+.tool_33-01{height:50px;width:80px;  margin-left:20px;}
+ 
+.tool_35-01{height:55px;width:80px;  margin-left:15px;}
+  
+.tool_36-01{height:55px;width:80px;  margin-left:25px;}
+  
+.tool_37-01{height:55px;width:80px;  margin-left:20px;}
+  
+.tool_38-01{height:10px;width:80px; margin-top:25px; margin-left:20px;}
+  
+.tool_39-01{height:10px;width:80px; margin-top:25px; margin-left:20px;}
+
+.tool_42-01{height:40px;width:60px; margin-top:10px; margin-left:30px;}
+  
+.tool_43-01{height:40px;width:60px; margin-top:10px; margin-left:30px;}
+  
+.tool_btn-01{height:20px;width:80px; margin-top:20px; margin-left:20px;}
+   
+.tool_btn-02{height:20px;width:80px; margin-top:20px; margin-left:20px;}
+   
+.tool_btn-03{height:20px;width:80px; margin-top:20px; margin-left:20px;}
+   
+.tool_btn-04{height:20px;width:80px; margin-top:20px; margin-left:20px;}
+	
+.tool_btn-05{height:20px;width:80px; margin-top:20px; margin-left:20px;}
+	 
+.tool_btn-06{height:20px;width:70px; margin-top:20px; margin-left:20px;}
+	  
+.tool_CH_box{height:50px;width:50px; margin-top:15px; margin-left:30px;}
+	 
+.tool_Com_Box{height:10px;width:80px; margin-top:20px; margin-left:20px;}
+	 
+.tool_rating{height:20px;width:100px; margin-top:20px; margin-left:10px;} 
+
+.tool_Hoz_scol{height:10px;width:100px; margin-top:20px; margin-left:10px;} 
+
+.tool_radio{height:30px;width:40px; margin-top:20px; margin-left:40px;} 
+	 	  
+.tool_msg_box{height:40px;width:100px; margin-top:20px; margin-left:10px;} 
+	   
+.tool_prgs_bar{height:10px;width:90px; margin-top:30px; margin-left:10px;}
+
+.tool_star_rating{height:30px;width:200px; margin-top:20px; margin-left:px;}
+
+.tool_seach{height:px;width:150px; margin-top:20px; margin-left:px;} 
+
+.tool_shap1{height:50px;width:50px; margin-top:20px; margin-left:30px;} 
+
+.tool_shap2{height:50px;width:60px; margin-top:20px; margin-left:30px;}   
+
+.tool_shap3{height:50px;width:60px; margin-top:20px; margin-left:30px;}
+
+.tool_shap4{height:60px;width:60px; margin-top:10px; margin-left:35px;}
+
+.tool_shap5{height:60px;width:60px; margin-top:10px; margin-left:30px;}
+
+.tool_slider{height:10px;width:100px; margin-top:40px; margin-left:15px;}
+
+.tool_alert_box{height:40px;width:90px; margin-top:20px; margin-left:15px;}
+
+.tool_stepper{height:20px;width:70px; margin-top:20px; margin-left:25px;}
+
+.tool_datepicker{height:20px;width:90px; margin-top:20px; margin-left:15px;}
+
+.tool_linkbar{height:20px;width:113px; margin-top:28px; margin-left:4px;}
+
+.tool_images{height:15px;width:70px; margin-top:20px; margin-left:25px;}
+
+.tool_tabs{height:15px;width:90px; margin-top:20px; margin-left:20px;}
+
+.tool_input{height:15px;width:125px; margin-top:28px; margin-left:-4px;}
+
+.tool_img_throw{height:70px;width:40px; margin-top:29px; margin-left:42px;}
+
+.side_toolsbar{
+
+
+}
+
+.whitepage{
+
+height:650px; 
+width:595px; 
+margin:auto; 
+margin-top:50px; 
+background-color: white;
+    
+}
+
+.btn-launch,.btn-launch:hover, .btn-launch:active, .btn-launch:focus{
+	background-color: #27ae60;
+    color: #fff;
+    font-size: 15px;
+    margin-bottom: 5px;
+   
+}
+.bt-login,.bt-login:hover, .bt-login:active, .bt-login:focus {
+    background-color: cornflowerblue;
+    color: #ffffff;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    transition: background-color 300ms linear 0s;
+
+}
+
+.login-tab {
+	margin: 0 auto;
+	max-width: 380px;
+    
+}
+
+.login-modal-header {
+	background: cornflowerblue;
+	color: #fff;
+    
+}
+
+.login-modal-header .modal-title {
+	color: #fff;
+}
+
+.login-modal-header .close {
+	color: #fff;
+}
+
+.login-modal i {
+	color: #000;
+}
+
+.login-modal form {
+	max-width: 340px;
+}
+
+.tab-pane form {
+	margin: 0 auto;
+}
+.login-modal-footer{
+	margin-top:15px;
+	margin-bottom:15px;
+}
+
+
+/* login modal Css end */
+
+/* Ruler Bar Css Start */
+
+.ruler{
+    border-right:1px solid #d1d1d1;
+    border-bottom:1px solid#d1d1d1;
+    background:#fff;
+    position:absolute;
+    left:0;top:5;
+    z-index:1;
+    overflow:hidden
+}
+.ruler path{
+    stroke:#d1d1d1!important
+}
+.ruler-numbers{
+    position:absolute;
+    color:#9f9f9f;
+    font-size:.7em;
+    white-space:nowrap
+}
+.ruler-numbers span{
+    box-sizing:border-box;
+    padding:0 3px;
+    position:absolute
+}
+.horizontal-ruler .ruler-numbers span{
+    display:inline-block
+}
+.vertical-ruler .ruler-numbers span{
+    display:block;
+    -webkit-transform:rotate(-90deg);
+    transform:rotate(-90deg);
+    -webkit-transform-origin:top left;
+    transform-origin:top left
+}
+
+
+.bckground{
+    height: 100%;
+    width: 100%;
+background-color:#EEEEEE;
+    }    
