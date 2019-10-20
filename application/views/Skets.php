@@ -79,7 +79,7 @@ and open the template in the editor.
                 <div class="dropdown text-center">
                     <img src="<?php echo base_url(); ?>assets/images/sketch.png"
                          class="btn btn-block dropdown-toggle img-responsive" type="button"
-                         style="height:120px; background-color:white;" data-toggle="dropdown"/>
+                         style="width: 50%; margin-left: 60px; background-color:white;" data-toggle="dropdown"/>
 
                     <ul class="dropdown-menu">
                         <?php
@@ -107,7 +107,7 @@ and open the template in the editor.
         </div>
 
         <div class="row">
-            <div class="col-sm-3">
+            <div class="col-sm-3" style="margin-left: 30px;">
                 <ul class="navbar-nav nav">
 
                     <li><a data-toggle="tab" href="#home" class="navbar-brand">Stancile</a></li>
