@@ -70,16 +70,16 @@ and open the template in the editor.
 <body bgcolor="#f2f2f2">
 
 <div id="loader"></div>
-
-<div class="side_toolsbar">
+<div class="row">
+<div class="side_toolsbar col-md-3">
     <div class="container-fluid">
 
         <div class="row">
-            <div class="col-sm-3 text-center">
+            <div class="col-sm-12 text-center">
                 <div class="dropdown text-center">
                     <img src="<?php echo base_url(); ?>assets/images/sketch.png"
                          class="btn btn-block dropdown-toggle img-responsive" type="button"
-                         style="width: 50%; margin-left: 60px; background-color:white;" data-toggle="dropdown"/>
+                         style="width: 50%;background-color:white;" data-toggle="dropdown"/>
 
                     <ul class="dropdown-menu">
                         <?php
@@ -107,7 +107,7 @@ and open the template in the editor.
         </div>
 
         <div class="row">
-            <div class="col-sm-3" style="margin-left: 30px;">
+            <div class="col-sm-12" style="margin-left: 30px;">
                 <ul class="navbar-nav nav">
 
                     <li><a data-toggle="tab" href="#home" class="navbar-brand">Stancile</a></li>
@@ -119,7 +119,7 @@ and open the template in the editor.
         </div>
 
         <div class="row">
-            <div class="col-sm-3">
+            <div class="col-sm-12">
                 <div class="tab-content">
                     <div id="home" class="tab-pane fade in active w3-animate-left">
 
@@ -1332,8 +1332,8 @@ and open the template in the editor.
 
 
 <!--- PAGE 2 START --->
-<div class="working_area">
-    <div class="row" style=" margin-top:20px;">
+<div class="working_area col-md-9">
+    <div class="row" style=" margin-top:35px;">
         <div class="col-sm-12">
             <nav class="navbar navbar-default affix" style="width:75%;">
                 <div class="container-fluid">
@@ -1410,7 +1410,7 @@ and open the template in the editor.
             </nav>
 
             <!---Ruler Bar Start--->
-            <div class="container-fluid" style="margin-top:75px; ">
+            <div class="container-fluid" style="margin-top:82px; ">
                 <div class="ruler corner-ruler unselectable" style="height: 18px; width: 18px;"></div>
                 <div class="ruler horizontal-ruler unselectable affix"
                      style=" z-index:2; height: 18px; left: 19px; margin-left:330px;">
@@ -1694,6 +1694,7 @@ and open the template in the editor.
         </div>
 
     </div> <!--- working area div END --->
+</div>
 </div>
 
 <div id="dialog" style="display: none;" align="center">

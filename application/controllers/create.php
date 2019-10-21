@@ -1,6 +1,6 @@
 <?php
 
-class create extends CI_Controller
+class Create extends CI_Controller
 {
     public function index()
     {
